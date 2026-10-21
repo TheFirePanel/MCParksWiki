@@ -10,6 +10,7 @@ RUN apt-get update && \
     lua5.1-dev \
     nginx \
     supervisor \
+    unzip \
     && \
     chown -Rf www-data:www-data /var/lib/nginx
 

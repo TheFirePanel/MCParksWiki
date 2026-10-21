@@ -187,7 +187,7 @@ if (getenv('SMTP_HOST')) {
 # Default settings
 $wgGroupPermissions['*']['edit'] = false;
 
-# Interwiki
+# Allow sysops to edit the interwiki table (Special:Interwiki)
 $wgGroupPermissions['sysop']['interwiki'] = true;
 
 ## S3
