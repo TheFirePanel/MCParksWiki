@@ -127,7 +127,6 @@ wfLoadExtension('Echo');
 wfLoadExtension('Gadgets');
 wfLoadExtension('ImageMap');
 wfLoadExtension('InputBox');
-wfLoadExtension('Interwiki');
 wfLoadExtension('LoginNotify');
 wfLoadExtension('Math');
 wfLoadExtension('MultimediaViewer');
