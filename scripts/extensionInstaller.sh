@@ -4,12 +4,12 @@ cd $DIR # Make sure we are set in the correct wd
 
 # All extensions to add, [GIT URL]="BRANCH"
 declare -A repos=(
-    ["https://github.com/jayktaylor/mw-discord"]="REL1_39"
+    ["https://github.com/jayktaylor/mw-discord"]="REL1_35"
     ["https://github.com/edwardspec/mediawiki-aws-s3"]="master"
     ["https://github.com/StarCitizenTools/mediawiki-extensions-TabberNeue"]="main"
-    ["https://gerrit.wikimedia.org/r/mediawiki/extensions/Disambiguator"]="REL1_43"
-    ["https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend"]="REL1_43"
-    ["https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles"]="REL1_43"
+    ["https://gerrit.wikimedia.org/r/mediawiki/extensions/Disambiguator"]="REL1_46"
+    ["https://gerrit.wikimedia.org/r/mediawiki/extensions/MobileFrontend"]="REL1_46"
+    ["https://gerrit.wikimedia.org/r/mediawiki/extensions/TemplateStyles"]="REL1_46"
 )
 
 # Go into extensions directory
