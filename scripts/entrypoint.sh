@@ -9,7 +9,7 @@ cd $DIR
 # Run production tasks if we aren't debugging
 if ! $DEBUG ; then
     ## LocalSettings manager
-    LOCALSETTINGS_URL="https://raw.githubusercontent.com/DrPepperG/MCParksWiki/main/LocalSettings.php"
+    LOCALSETTINGS_URL="https://raw.githubusercontent.com/TheFirePanel/MCParksWiki/main/LocalSettings.php"
     echo "Grabbing LocalSettings from GitHub"
     curl $LOCALSETTINGS_URL -O
 
